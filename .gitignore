@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Email datasets
+*.eml
+data/
+datasets/
+
+# Generated investigation reports
+reports/*
+!reports/.gitkeep
